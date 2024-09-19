@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"> -->
+  <title>Anderson Costa</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+  
+  <style>
+    /* .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+    .carousel::-webkit-scrollbar {
+        display: none;
+    }
+    .carousel-item {
+        min-width: 300px;
+        margin-right: 16px;
+    } */
+  </style>
+</head>
+<body>
+  <header class="cabecalho">
+      <nav class="cabecalho__nav">
+          <ul class="cabecalho__menu">
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#tec">Tecnologias</a></li>
+              <li><a href="#apresentacao">Home</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#sobre">Contato</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+  <main>
+      <section id="apresentacao">
+          <aside class="apresentacao__texto">
+              <h1 class="apresentacao__texto--titulo">Anderson Costa</h1>
+              <h2 class="apresentacao__texto--dev">Desenvolvedor Web Jr.</h2>
+              <p>Estudante Sistemas para internet na Anhembi Morumbi.</p>
+              <p>Experiente no fornecimento de CI's através de licitação, com ampla vivência, visão de negócios, processos e qualidade.</p>
+          </aside>
+          <div class="apresentacao__imagem">                
+              <img class="apresentacao__imagem--foto" src="./assets/apresentacao n fundo.png" alt="laptop">
+          </div>           
+          <aside class="apresentacao__texto">
+              <p class="apresentacao__texto--direita">Desenvolvi soft skills essenciais, como gestão de tempo, comunicação eficaz, trabalho em equipe, resolução de problemas, adaptabilidade e pensamento crítico.</p>
+
+
+              <ul class="apresentacao__icones">
+                  <!-- <li><a href="https://github.com/anderson-cst"><img class="apresentacao__icones--icon" src="./assets/github.png" alt="logo github"></a></li>
+
+                  <li><a href="https://www.linkedin.com/in/anderson-costa-code"><img class="apresentacao__icones--icon" src="./assets/linkedin.png" alt="logo linkedin"></a></li> -->
+                  <a href="https://github.com/anderson-cst"><img class="apresentacao__icones--icon" src="https://img.icons8.com/material-outlined/384/github.png" alt="github"/></a>
+            
+                  <a href="https://www.linkedin.com/in/anderson-costa-code"><img class="apresentacao__icones--icon" src="https://img.icons8.com/color/480/linkedin.png" alt="linkedin"/></a>
+              </ul>    
+          </aside>
+      </section>
+  </main>
+
+  <h2 class="divider line one-line">Projetos</h2>
+  
+  <section id="projetos">
+    <div class="carousel-bootstrap">
+      
+      <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-around" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+    
+        <div class="carousel-inner col-6">
+    
+          <div class="carousel-item col-10 active">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title">API CRUD</h5>
+              </div>
+              <img class="card-img-top" src="./assets/Diagrama MySQL.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">API bankAccount</h5>
+                <p class="card-text">API (CRUD - Create Read Update Delete) account web API. Account have Cards managed by Account.</p>
+                <a href="https://github.com/anderson-cst/project-it-experts" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item col-10">
+            <div class="card" >
+              <div class="card-header">
+                <h5 class="card-title">Landing Page</h5>
+              </div>
+              <img class="card-img-top" src="./assets/landing-page.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <p class="card-text">Projeto Desenvolvido utilizando HTML5, CSS3, Flexbox, Font Awesome.</p>
+                <a href="https://anderson-cst.github.io/Landing_Page/" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="carousel-item col-10">
+            <div class="card" >
+              <div class="card-header">
+                <h5 class="card-title">Dino Game</h5>
+              </div>
+              <img class="card-img-top" src="./assets/dino-game.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Dino Game</h5>
+                <p class="card-text">Jogo do dinossauro usando Javascript, HTML 5 e CSS3, abordando conceitos de manipulação de DOM.</p>
+                <a href="https://anderson-cst.github.io/Jogo-Dino-Chrome/" class="btn btn-primary">Visitar</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      
+    
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+    
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+      </div>
+    
+
+
+    </div>
+    <!-- <div class="projetos__cards">
+      <article class="projetos__cards--card">
+          <h2>Back End</h2>
+      </article>
+      <article class="projetos__cards--card">
+          <h2>Landing Page</h2>
+      </article>
+      <article class="projetos__cards--card">
+          <h2>Landing Page</h2>
+      </article>
+      <article class="projetos__cards--card">
+          <h2>Landing Page</h2>
+      </article>
+    </div>       -->
+  </section>
+
+  <h2 class="divider line one-line">Tecnologias</h2>
+
+  <section id="tec">
+    <div class="tec__iconeTec">
+      <img class="tec__iconeTec--icon" src="https://img.icons8.com/color/480/javascript--v1.png" alt="javascript--v1"/>
+      <img class="tec__iconeTec--icon" src="https://img.icons8.com/color/480/html-5--v1.png" alt="html-5--v1"/>
+      <img class="tec__iconeTec--icon" src="https://img.icons8.com/color/480/css3.png" alt="css3"/>
+      <img class="tec__iconeTec--icon" src="https://img.icons8.com/nolan/512/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
+      <img class="tec__iconeTec--icon" src="https://img.icons8.com/color/480/mysql-logo.png" alt="mysql-logo"/>
+      <img class="tec__iconeTec--icon" src="https://img.icons8.com/color/480/spring-logo.png" alt="spring-logo"/>
+      <img class="tec__iconeTec--icon" src="https://img.icons8.com/color-glass/480/bootstrap.png" alt="bootstrap"/>
+    </div>
+  </section>
+
+  <h2 class="divider line one-line">Sobre</h2>
+
+  <section id="sobre">
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./assets/anderson-costa-fundo-filtro.png" class="img-fluid rounded-start" alt="card sobre">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Anderson Costa</h5>
+            <p class="card-text">Desenvolvedor Web Jr.<br>Cursando Sistemas para Internet.<br>Anhembi Morumbi.<br>Projeto desenvolvido em Javascript, html 5 e css3, carrossel usando Bootstrap, metodologia BEM (Block Element Modifier), na organização das classes.</html></p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+            <a href="https://github.com/anderson-cst"><img class="tec__iconeTec--icon" src="https://img.icons8.com/material-outlined/384/github.png" alt="github"/></a>
+            
+            <a href="https://www.linkedin.com/in/anderson-costa-code"><img class="tec__iconeTec--icon" src="https://img.icons8.com/color/480/linkedin.png" alt="linkedin"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <footer>
+    <div class="rodape">
+      Desenvolvido por Anderson Costa - 2024
+    </div>
+  </footer>
+
+</body>
+</html>
