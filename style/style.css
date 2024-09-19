@@ -167,6 +167,9 @@ p {
 
 #sobre {
   background-image: url(/assets/abstract-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 150px;
   padding: 30px;
   display: flex;
